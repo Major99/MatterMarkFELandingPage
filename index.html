@@ -15,14 +15,24 @@
                 <img src="images/logo-cyan-light-bg.png" alt="Company Logo">
             </div>
             <ul>
-                <li><a href="#solutions">SOLUTIONS</a>
-                    <ul id="submenu">
-                        <li><a href="#list-building">LIST BUILDING</a></li>
-                        <li><a href="#lead-enrichment">LEAD ENRICHMENT</a></li>
-                        <li><a href="#developer-tools">DEVELOPER TOOLS</a></li>
-                    </ul>
+                <li class="dropdown">
+                    <a href="solutions" class="dropbtn">SOLUTIONS</a>
+                    <div class="dropdown-content">
+                        <a href="#list-building">LIST BUILDING </a>
+                        <a href="#lead-enchricment">LEAD ENCHRICMENT</a>
+                        <a href="#developer-tools">DEVELOPER TOOLS</a>
+                    </div>
                 </li>
-                <li><a href="#integrations">INTEGRATIONS</a></li>
+                <li class="dropdown">
+                    <a href="#integrations">INTEGRATIONS</a>
+                    <div class="dropdown-content">
+                        <a href="#sales-force">SALES FORCE </a>
+                        <a href="#microsoft-excel">MICROSOFT EXCEL</a>
+                        <a href="#google-sheets">GOOGLE SHEETS</a>
+                        <a href="#browser-extension">BROWSER EXTENSION</a>
+                        <a href="#iphone-app">IPHONE APP</a>
+                    </div>
+                </li>
                 <li><a href="#pricing">PRICING</a></li>
                 <li><a href="#login">LOGIN</a></li>
 
@@ -54,51 +64,97 @@
 
     <section id="about">
         <div class="about-content">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+            <h1>Using Data You Can Trust</h1>
+            <h5>WHERE WE GET OUR DATA</h5>
+            <p>We leverage machine learning, web crawlers, primary sources, and natural language processing to extract
+                data from millions of news articles and websites daily.
+
+                Our team of in-house analysts verify the data every day - so you can close deals with conviction.</p>
         </div>
         <div class="about-image">
-            <img src="about-image.jpg" alt="About Us Image">
+            <img src="images/Web capture_5-9-2023_152417_.jpeg" alt="mattermark">
         </div>
     </section>
 
     <section id="services">
-        <h2>Our Services</h2>
-        <div class="service">
-            <img src="service-1.jpg" alt="Service 1">
-            <h3>Service 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="services-image">
+            <img src="images/opportunity.png" alt="mattermark">
         </div>
-        <div class="service">
-            <img src="service-2.jpg" alt="Service 2">
-            <h3>Service 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="service">
-            <img src="service-3.jpg" alt="Service 3">
-            <h3>Service 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="services-content">
+            <h1>Discover New Opportunities</h1>
+            <p>The world’s business information in one place, filterable and sortable.
+                Mattermark makes it faster and easier to source the best deals.</p>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form action="contact.php" method="post">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit" class="cta-button">Send Message</button>
-        </form>
+    <section id="track">
+        <div class="track-content">
+            <h1>Track Success</h1>
+            <p>Search company and investor profiles for deep insights
+            into their growth and performance over time.</br>
+             Break the cycle of doing business without good data.</p>
+        </div>
+        <div class="track-image">
+            <img src="images/growth.png" alt="mattermark">
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2023 Media Company. All rights reserved.</p>
+    <section id="inform">
+        <div class="inform-image">
+            <img src="images/informed.png" alt="mattermark">
+        </div>
+        <div class="inform-content">
+            <h1>Stay Informed</h1>
+            <p>There are 300+ million private companies in the world.
+             Saved Searches, Custom Lists,and News Notifications
+            make it possible to keep tabs on the ones that matter most to you..</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="left-area">
+            <h2>INTEGRATIONS</h2>
+            <ul class="box">
+                <li>Salesforce</li>
+                <li> MS Excel</li>
+                <li> Google Sheets</li>
+                <li> iOS App</li>
+                <li>Chrome Extension</li>
+            </ul>
+        </div>
+        <ul class="right-area">
+            <li class="link-area">
+                <h2>SOLUTIONS</h2>
+                <ul class="" box h-box>
+                    <li>Prospect Discovery</li>
+                    <li> Lead Enrichment</li>
+                    <li> Developer API</li>
+                </ul>
+            </li>
+
+            <li>
+                <h2>SUPPORT</h2>
+                <ul class="box">
+                    <li>Help Center</li>
+                    <li> Email Us</li>
+                    <li> Privacy</li>
+                    <li> Terms</li>
+                </ul>
+            </li>
+
+            <li>
+                <h2>COMPANY</h2>
+                <ul class="box">
+                    <li>Lists</li>
+                    <li>Newsletters</li>
+                    <li>Webinars</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="footer-bottom">
+            <img src="images/logo-cyan-light-bg.png" alt="">
+            <p>Mattermark,inc. 61 Morga Way Suite 6</p>
+        </div>
     </footer>
 </body>
 
